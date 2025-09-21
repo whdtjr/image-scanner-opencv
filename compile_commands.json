@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-isystem",
+      "/usr/include/opencv4",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu++17",
+      "-c",
+      "-o",
+      "CMakeFiles/warp_app.dir/src/warp.cpp.o",
+      "/home/ubuntu/workspace/opencv-cpp/src/warp.cpp"
+    ],
+    "directory": "/home/ubuntu/workspace/opencv-cpp/build",
+    "file": "/home/ubuntu/workspace/opencv-cpp/src/warp.cpp",
+    "output": "/home/ubuntu/workspace/opencv-cpp/build/CMakeFiles/warp_app.dir/src/warp.cpp.o"
+  }
+]

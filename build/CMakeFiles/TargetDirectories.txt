@@ -1,0 +1,5 @@
+/home/ubuntu/workspace/opencv-cpp/build/CMakeFiles/scan_app.dir
+/home/ubuntu/workspace/opencv-cpp/build/CMakeFiles/edge_app.dir
+/home/ubuntu/workspace/opencv-cpp/build/CMakeFiles/warp_app.dir
+/home/ubuntu/workspace/opencv-cpp/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/workspace/opencv-cpp/build/CMakeFiles/rebuild_cache.dir
