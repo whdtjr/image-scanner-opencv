@@ -61,7 +61,7 @@ void Widget::on_ocrButton_clicked()
     }
 
     // OCR 실행파일 경로
-    QString program = "/home/ubuntu/workspace/opencv_project/ocr";
+    QString program = "/home/ubuntu/workspace/opencv_check/image-scanner-opencv-main/build/bin/warp_app";
 
     // OCR 실행파일이 위치한 디렉토리
     QFileInfo programInfo(program);
