@@ -10,14 +10,14 @@ find_package(OpenCV 4 REQUIRED COMPONENTS core imgproc highgui imgcodecs)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # 1) scan_app
-add_executable(scan_app src/main.cpp)
-target_link_libraries(scan_app PRIVATE ${OpenCV_LIBS})
-target_include_directories(scan_app PRIVATE ${OpenCV_INCLUDE_DIRS})
+# add_executable(scan_app src/main.cpp)
+# target_link_libraries(scan_app PRIVATE ${OpenCV_LIBS})
+# target_include_directories(scan_app PRIVATE ${OpenCV_INCLUDE_DIRS})
 
-# 2) edge_app
-add_executable(edge_app src/text.cpp)  # ← 파일명/경로 확인!
-target_link_libraries(edge_app PRIVATE ${OpenCV_LIBS})
-target_include_directories(edge_app PRIVATE ${OpenCV_INCLUDE_DIRS})
+# # 2) edge_app
+# add_executable(edge_app src/text.cpp)  # ← 파일명/경로 확인!
+# target_link_libraries(edge_app PRIVATE ${OpenCV_LIBS})
+# target_include_directories(edge_app PRIVATE ${OpenCV_INCLUDE_DIRS})
 
 add_executable(warp_app src/warp.cpp)
 target_link_libraries(warp_app PRIVATE ${OpenCV_LIBS})
